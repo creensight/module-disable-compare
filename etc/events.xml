@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @copyright Copyright © 2020 CreenSight. All rights reserved.
+ * @author CreenSight Development Team <magento@creensight.com>
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="layout_load_before">
+        <observer name="CreenSight_DisableCompare::add_disable_compare_handle" instance="CreenSight\DisableCompare\Observer\AddDisableCompareHandle" />
+    </event>
+</config>

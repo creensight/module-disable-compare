@@ -1,0 +1,12 @@
+/**
+ * @copyright Copyright © 2020 CreenSight. All rights reserved.
+ * @author CreenSight Development Team <magento@creensight.com>
+ */
+
+.product-item-info a.tocompare {
+    display: none !important;
+}
+
+.product-item-info .tocompare {
+    display: none !important;
+}
