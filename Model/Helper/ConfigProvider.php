@@ -37,10 +37,11 @@ class ConfigProvider
 
     /**
      * @param string $path
+     * @param number $storeId
      * @return mixed
      */
-    public function execute($path)
+    public function execute($path, $storeId = null)
     {
-        return $this->configProvider->execute($path);
+        return $this->configProvider->execute($path, $storeId);
     }
 }
